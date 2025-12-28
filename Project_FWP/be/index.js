@@ -25,7 +25,6 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
 // login
 app.use("/api/login", login);
 
